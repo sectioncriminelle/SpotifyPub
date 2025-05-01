@@ -1,57 +1,34 @@
-# 🛡️ Spotify Ads Blocker (Windows Hosts File Modifier)
+# 🛡️ **Spotify Ads Blocker** — *Windows Hosts File Modifier*
 
-A lightweight Python script that blocks **Spotify ads** on Windows by automatically adding ad-related domains to your system's `hosts` file.
+A lightweight 🐍 Python script that blocks **Spotify ads** on **Windows** by modifying your system's `hosts` file to redirect ad-related domains to `127.0.0.1`.
 
-> ⚠️ This script must be run as **administrator** to function correctly.
-
----
-
-## 🚀 Features
-
-- Blocks known Spotify ad servers via `hosts` file
-- No external dependencies
-- Simple, quick, and effective
+> ⚠️ **Requires administrator privileges**
 
 ---
 
-## 🔒 Domains Blocked
+## 🚀 **Features**
 
-The following ad/tracking domains are redirected to `127.0.0.1`:
+✅ Blocks known ad & tracking domains used by Spotify  
+⚙️ No dependencies — just Python standard library  
+⚡ Lightweight, fast, and easy to use  
+🔐 Works entirely offline (no API or web request)
 
-```plaintext
-127.0.0.1 ads-fa.spotify.com
-127.0.0.1 analytics.spotify.com
-127.0.0.1 adclick.g.doubleclick.net
-127.0.0.1 pagead46.l.doubleclick.net
-127.0.0.1 googleads.g.doubleclick.net
-127.0.0.1 pubads.g.doubleclick.net
-127.0.0.1 audio-ads.spotify.com
-127.0.0.1 ads.spotify.com
-127.0.0.1 tracking.spotify.com
-🖥️ Requirements
-Windows OS
+---
 
-Python 3.x installed
+## 🔒 **Blocked Domains**
 
-Administrator privileges
+These ad/tracking servers will be redirected to `127.0.0.1`:
 
-🛠️ How to Use
-Open Command Prompt as Administrator
+## 🖥️ **Requirements**
 
-Run the script:
+- 🪟 **Windows OS**
+- 🐍 **Python 3.x**
+- 🔐 **Run as Administrator**
 
-bash
-Copier
-Modifier
-python spotify.py
-You should see a success message:
-✅ Block added
+## - ⚠️ **Disclaimer**
+ 
+🧪 This tool is provided for educational purposes only
 
-If not, make sure you are running the terminal as Administrator.
+🚫 Blocking ads may violate Spotify’s Terms of Service
 
-⚠️ Disclaimer
-This tool is for educational purposes only.
-
-Blocking ads may violate Spotify's terms of service.
-
-Use responsibly, and consider supporting the platforms you enjoy.
+💡 Use responsibly — consider supporting services you love
